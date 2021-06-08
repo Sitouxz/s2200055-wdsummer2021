@@ -1,0 +1,108 @@
+<!-- Author: Ombuh, Yehezkiel Owen -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Multimedia Tag</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+        body, html {
+            font-family: 'Montserrat', sans-serif;
+            background-color: #161617;
+            color: white;
+            text-align: center;
+            height: 100%;
+            margin: 0;
+        }
+
+        .header {
+            background-color: tomato;
+            font-size: 20px;
+            padding: 1px;
+            margin: 0 400px 0 400px;
+            border-radius: 10px;
+        }
+        .body {
+            background-color: rgba(150, 150, 150, 0.3);
+            padding: 5px;
+            margin: 15px 450px 0 450px;
+            border-radius: 10px;
+        }
+
+        .image {
+            background-color: rgba(150, 150, 150, 0.3);
+            padding: 1px 1px 30px 1px;
+            margin: 25px 25px 25px;
+            border-radius: 10px;
+        }
+        .video {
+            background-color: rgba(150, 150, 150, 0.3);
+            padding: 1px 1px 30px 1px;
+            margin: 25px 25px 25px;
+            border-radius: 10px;
+        }
+        .audio {
+            background-color: rgba(150, 150, 150, 0.3);
+            padding: 1px 1px 30px 1px;
+            margin: 25px 25px 25px;
+            border-radius: 10px;
+        }
+        .iframe {
+            background-color: rgba(150, 150, 150, 0.3);
+            padding: 1px 1px 30px 1px;
+            margin: 25px 25px 25px;
+            border-radius: 10px;
+        }
+
+        .footer {
+            background-color: rgba(150, 150, 150, 0.3);
+            margin-top: 15px;
+            font-size: 10px;
+            padding: 15px 0 15px 0;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>HTML MULTIMEDIA TAG</h1>
+    </div>
+
+    <div class="body">
+        <div class="image">
+            <h1>Contoh Image</h1>
+            <img width="854" height="480" src="https://image.freepik.com/free-vector/programmers-during-coding-debugging-maintenance-software-testing-isometric-flowchart-blue_1284-29043.jpg" alt="Coding">
+        </div>
+        <div class="video">
+            <h1>Contoh Video</h1>
+            <video width="854" height="480" controls> <!--jangan lupa ganti ke autoplay ============================================================================================= -->
+                <source src="https://bit.ly/3j6rPni" type="video/mp4">
+                <source src="https://bit.ly/3j6rPni" type="video/ogg">
+                <source src="https://bit.ly/3j6rPni" type="webm">
+            </video>
+        </div>
+
+        <div class="audio">
+            <h1>Contoh Audio</h1>
+            <audio controls>
+                <source src="https://bit.ly/2EbrKA4" type="audio/ogg" />
+                <source src="https://bit.ly/2EbrKA4" type="audio/mp3" />
+                <source src="https://bit.ly/2EbrKA4" type="audio/wav" />
+                Your browser does not support the audio element.
+              </audio>
+        </div>
+
+        <div class="iframe">
+            <h1>Contoh Iframe</h1>
+            <iframe width="854" height="480" src="https://www.youtube.com/embed/YOJsKatW-Ts" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+    </div>
+
+    <div class="footer">
+        <h1>Created by Yehezkiel Owen Ombuh</h1>
+        <h1>s2200055@student.unklab.ac.id</h1>
+        <h1>+62 81278276034</h1>
+    </div>
+</body>
+</html>
