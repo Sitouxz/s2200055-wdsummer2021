@@ -1,0 +1,95 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  font-size: 50px;
+}
+
+li {
+  list-style-type: none;
+}
+
+/* External CSS */
+body .external {
+  color: rgb(108, 108, 255);
+}
+
+/* Color */
+
+.colors {
+  color: red;
+}
+
+.hex {
+  color: #dddd;
+}
+
+.rgb {
+  color: rgb(108, 108, 255);
+}
+
+.rgba {
+  color: rgba(108, 108, 255, 0.5);
+}
+
+/* Styling */
+.pseudo li a {
+  color: black;
+  text-decoration: none;
+}
+
+/* Selector & Pseudo */
+
+.pseudo .class a:hover {
+  padding: 5px;
+  background-color: gray;
+  border-radius: 10px;
+  color: red;
+  transition: 0.5s;
+}
+
+.pseudo .element::first-letter {
+  color: red;
+}
+
+/* Box Model  */
+
+.box-model .box {
+  text-align: center;
+  width: 400px;
+  margin: 10px auto;
+  border: 10px solid black;
+}
+
+/* CSS Position */
+
+.position .static {
+  position: static;
+  background-color: yellowgreen;
+}
+
+.position .relative {
+  position: relative;
+  bottom: 160px;
+  background-color: yellowgreen;
+}
+.position .absolute {
+  position: absolute;
+  top: 0;
+  padding: 50px 10px;
+  background-color: yellowgreen;
+}
+.position .fixed {
+  position: fixed;
+  top: 0;
+  right: 0;
+  padding: 50px 10px;
+  background-color: yellowgreen;
+}
+.position .sticky {
+  position: sticky;
+  bottom: 0;
+  background-color: yellowgreen;
+}

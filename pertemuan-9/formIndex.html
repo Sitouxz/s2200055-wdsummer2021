@@ -1,131 +1,135 @@
 <!-- Author: Yehezkiel Owen Ombuh -->
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>HTML Form</title>
     <style>
-                @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
-        html {
-            font-family: 'Montserrat', sans-serif;
-            background-color: #161617;
-            color: white;
-            height: 100%;
-            margin: 0;
-        }
+      @import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+      html {
+        font-family: "Montserrat", sans-serif;
+        background-color: #161617;
+        color: white;
+        height: 100%;
+        margin: 0;
+      }
 
-        .form {
-            background-color: rgba(150, 150, 150, 0.3);
-            margin-left: auto;
-            margin-right: auto;
-            width: 30%;
-            padding: 5px 12px 16px 12px;
-            border-radius: 10px;
-            margin-top: 145px;
-            line-height: 25px;
-        }
+      .form {
+        background-color: rgba(150, 150, 150, 0.3);
+        margin-left: auto;
+        margin-right: auto;
+        width: 30%;
+        padding: 5px 12px 16px 12px;
+        border-radius: 10px;
+        margin-top: 145px;
+        line-height: 25px;
+      }
 
-        input, textarea, select,  {
-            border: 0;
-            border-radius: 5px;
-        }
+      input,
+      textarea,
+      select {
+        border: 0;
+        border-radius: 5px;
+      }
 
-        .dropdown {
-            background-color: rgba(100, 100, 100, 1);
-            color: white;
-            padding: 10px;
-            border: none;
-            position: relative;
-            display: inline-block;
-        }
+      .dropdown {
+        background-color: rgba(100, 100, 100, 1);
+        color: white;
+        padding: 10px;
+        border: none;
+        position: relative;
+        display: inline-block;
+      }
 
-        button {
-            background-color: rgba(100, 100, 100, 1);
-            border: none;
-            color: white;
-            padding: 10px 15px;
-            text-decoration: none;
-            cursor: pointer;
-            float: right;
-        }
+      button {
+        background-color: rgba(100, 100, 100, 1);
+        border: none;
+        color: white;
+        padding: 10px 15px;
+        text-decoration: none;
+        cursor: pointer;
+        float: right;
+      }
 
-        .header {
-            background-color: rgba(150, 150, 150, 0.3);
-            color: white;
-            font-size: 10px;
-            text-align: center;
-            position: fixed;
-            left: 0;
-            top: 0;
-            width: 100%;
-            text-align: center;
-        }
+      .header {
+        background-color: rgba(150, 150, 150, 0.3);
+        color: white;
+        font-size: 10px;
+        text-align: center;
+        position: fixed;
+        left: 0;
+        top: 0;
+        width: 100%;
+        text-align: center;
+      }
 
-        .footer {
-            background-color: rgba(150, 150, 150, 0.3);
-            color: white;
-            font-size: 10px;
-            padding: 15px 0 15px 0;
-            text-align: center;
-            position: fixed;
-            left: 0;
-            bottom: 0;
-            width: 100%;
-            text-align: center;
-        }
+      .footer {
+        background-color: rgba(150, 150, 150, 0.3);
+        color: white;
+        font-size: 10px;
+        padding: 15px 0 15px 0;
+        text-align: center;
+        position: fixed;
+        left: 0;
+        bottom: 0;
+        width: 100%;
+        text-align: center;
+      }
     </style>
-</head>
-<body>
-<div class="header">
+  </head>
+  <body>
     <div class="header">
+      <div class="header">
         <h1>Web Design Summer</h1>
         <h2>HTML Form</h2>
+      </div>
     </div>
-</div>
 
     <div class="form">
-        <form action="./formIndex.html">
-            <fieldset>
-                <legend>Formulir</legend>
+      <form action="./formIndex.html">
+        <fieldset>
+          <legend>Formulir</legend>
 
-                <label for="name">Nama</label><br>
-                <input type="text" id="name"><br>
-                <label for="address">Address</label><br>
-                <input type="search"" id="address"><br>
-                <label for="password">Password</label><br>  
-                <input type="password" id="Password"><br>
+          <label for="name">Nama</label><br />
+          <input type="text" id="name" /><br />
+          <label for="address">Address</label><br />
+          <input type="search"" id="address"><br />
+          <label for="password">Password</label><br />
+          <input type="password" id="Password" /><br />
 
-                <label>Jenis kelamin</label>
-                <input type="radio" name="gender"> Laki-laki
-                <input type="radio" name="gender"> Perempuan <br>
+          <label>Jenis kelamin</label>
+          <input type="radio" name="gender" /> Laki-laki
+          <input type="radio" name="gender" /> Perempuan <br />
 
-                <label>Skills</label> <br>
-                <input type="checkbox">Web <br>
-                <input type="checkbox">Mobile <br>
-                <input type="checkbox">Desktop <br>
+          <label>Skills</label> <br />
+          <input type="checkbox" />Web <br />
+          <input type="checkbox" />Mobile <br />
+          <input type="checkbox" />Desktop <br />
 
-                <label for="city">Kota Asal</label>
-                <select class="dropdown" id="city">
-                        <option value="Semarang">Semarang</option>
-                        <option value="Jakarta">Jakarta</option>
-                        <option value="Manado">Manado</option>
-                </select> 
-                <br>
+          <label for="city">Kota Asal</label>
+          <select class="dropdown" id="city">
+            <option value="Semarang">Semarang</option>
+            <option value="Jakarta">Jakarta</option>
+            <option value="Manado">Manado</option>
+          </select>
+          <br />
 
-                <label for="reason">Apa yang membuat kami harus memilih anda?</label> 
-                <br>
-                <textarea name="reason" id="reason" cols="74" rows="10">Tulis jawaban anda di sini</textarea>
-                <button>Submit</button>
-            </fieldset>
-         </form>
+          <label for="reason">Apa yang membuat kami harus memilih anda?</label>
+          <br />
+          <textarea name="reason" id="reason" cols="74" rows="10">
+Tulis jawaban anda di sini</textarea
+          >
+          <button>Submit</button>
+        </fieldset>
+      </form>
     </div>
 
     <div class="footer">
-        <h1>Created by Yehezkiel Owen Ombuh</h1>
-        <h1>s2200055@student.unklab.ac.id</h1>
-        <h1>+62 81278276034</h1>
+      <h1>Created by Yehezkiel Owen Ombuh</h1>
+      <h1>s2200055@student.unklab.ac.id</h1>
+      <h1>+62 81278276034</h1>
     </div>
-</body>
+  </body>
 </html>
